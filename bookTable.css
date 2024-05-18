@@ -1,0 +1,24 @@
+header{
+    display: flex;
+justify-content:space-between;
+align-items: center;
+margin-top: 0;
+background-color: darkslategray;
+width: 1500px;
+height: 100px;
+}
+.logo {
+width: 80px; /* Adjust width as needed for your logo size */
+height: 80px; /* Set the same width for a circle */
+border-radius: 50%; /* Creates a circular shape */
+background-image: url("Healthy\ Bites\ Restaurant.png"); 
+background-size: cover; 
+background-position: center;
+position: absolute; 
+top: 10px; 
+left: 10px;
+}
+#head{
+margin-left: auto ;
+display: flex;
+}

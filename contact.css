@@ -1,0 +1,60 @@
+body{
+    background: linear-gradient(rgb(244, 249, 249),
+    rgb(204, 242, 244),
+    rgb(164, 235, 243),
+    rgb(170, 170, 170));
+    height: 200vh;
+    
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 0;
+    background-color: darkslategray;
+    width: 2000px;
+    height: 100px;
+ 
+ }
+ header ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+ }
+ header ul li{
+     margin-left: 110px;
+     text-align: right;
+ }
+#hd1{
+     color: white;
+        font-size:xx-large;
+        font-size: 2em;
+        text-align: center;
+        margin-top: 100px;
+        background-color: rgb(7, 70, 72);
+ }
+ section{
+     color: white;
+ }
+ 
+ .logo {
+     width: 80px; /* Adjust width as needed for your logo size */
+     height: 80px; /* Set the same width for a circle */
+     border-radius: 50%; /* Creates a circular shape */
+     background-image: url("Healthy\ Bites\ Restaurant.png"); 
+     background-size: cover; 
+     background-position: center;
+     position: absolute; 
+     top: 10px; 
+     left: 10px;
+   }
+ #head{
+     margin-left: auto ;
+     display: flex;
+     color: aliceblue;
+ }
+ #Eimg{
+    width: 500px;
+    height: 300px;
+ }
